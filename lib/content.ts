@@ -19,6 +19,30 @@ export type RoomObjective = {
 
 export const roomObjectives: RoomObjective[] = [
   // Injected live from Zoom Chat during the workshop.
+  {
+    id: "room-objectives-1a",
+    title: "\u201cNot knowing what I don\u2019t know\u201d",
+    priority: "P1",
+    persona:
+      "A Scrum Master or Agile Coach who is curious about AI but doesn't have a technical background.",
+    scenario:
+      "They can't tell what AI can or can't do for their work, so they don't know what to ask, what to try, or which risks to watch for. The uncertainty keeps them from starting.",
+    experience:
+      "A short, safe map of the territory: three starter uses inside ceremonies they already run (refinement, retros, stakeholder updates), and one prompt to try today. The next best step is a 15-minute experiment, not a course.",
+    trelloUrl: "https://trello.com/c/gbe62wYg",
+  },
+  {
+    id: "room-objectives-1b",
+    title: "Which industries will AI become effective for?",
+    priority: "P2",
+    persona:
+      "An Agile Coach who works with clients across several industries (finance, healthcare, software, government).",
+    scenario:
+      "They're asked whether AI applies to their client's world and can't answer with confidence. They're worried about overpromising in regulated industries or underselling it in fast-moving ones.",
+    experience:
+      "A useful reframe: AI works where the work fits, whatever the industry (lots of text, repeatable decisions, tight feedback loops). The next best step is to score one client workflow against those three traits.",
+    trelloUrl: "https://trello.com/c/aRPC80QN",
+  },
 ];
 
 export type Resource = {
